@@ -52,7 +52,8 @@ header {
     box-sizing: border-box; /* Prevent unwanted spacing */
 }
 .header-image {
-    width: 100%;
-    max-height: 150px; /* Adjust height based on your design */
-    object-fit: cover; /* Keeps proportions balanced */
+    width: 100%; /* Ensures it spans the full header */
+    max-height: 200px; /* Adjust as needed for better proportion */
+    height: auto; /* Prevents distortion */
+    object-fit: contain; /* Keeps the entire image visible */
 }
