@@ -41,3 +41,18 @@ header {
     cursor: pointer;
     margin-left: -40px;
 }
+/* Updated header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #F8E8F5; /* Soft pastel shade */
+    width: 100%; /* Make it span the full width */
+    box-sizing: border-box; /* Prevent unwanted spacing */
+}
+.header-image {
+    width: 100%;
+    max-height: 150px; /* Adjust height based on your design */
+    object-fit: cover; /* Keeps proportions balanced */
+}
